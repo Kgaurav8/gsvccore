@@ -1,5 +1,8 @@
 pipeline{
  agent {label "maven-agent"}
+ tools{
+   maven "M3"
+ }
     stages{
       stage("prep"){
         echo "hello wolrd"
