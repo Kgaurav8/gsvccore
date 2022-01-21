@@ -2,6 +2,7 @@ pipeline{
  agent {label "maven-agent"}
  tools{
    maven "M3"
+   kubectl "K3"
  }
     stages{
       stage("prep"){
